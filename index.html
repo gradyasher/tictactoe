@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<table class="ticTacToe" cellspacing="0" cellpadding="0">
+		<tr id="row-1" con>
+			<td id='1' class="square bottom right"></td>
+			<td id='2' class="square bottom right left"></td>
+			<td id='3' class="square bottom left"></td>
+		</tr>
+		<tr id="row-2" con>
+			<td id='4' class="square bottom top right"></td>
+			<td id='5' class="square bottom top right left"></td>
+			<td id='6' class="square bottom top left"></td>
+		</tr>
+		<tr id="row-3" con>
+			<td id='7' class="square top right"></td>
+			<td id='8' class="square top right left"></td>
+			<td id='9' class="square top left"></td>
+		</tr>
+	</table>
+	<div class="over">
+		<div class="winnerMsg"></div>
+		<button id="restart">Play Again</button>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
